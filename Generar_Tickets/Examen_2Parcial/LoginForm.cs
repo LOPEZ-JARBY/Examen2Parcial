@@ -21,5 +21,10 @@ namespace Examen_2Parcial
         {
 
         }
+
+        private void Cancelarbutton_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

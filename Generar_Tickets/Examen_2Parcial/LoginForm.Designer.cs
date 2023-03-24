@@ -59,6 +59,7 @@
             // Cancelarbutton
             // 
             this.Cancelarbutton.BackColor = System.Drawing.Color.Lavender;
+            this.Cancelarbutton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.Cancelarbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Cancelarbutton.Location = new System.Drawing.Point(204, 117);
             this.Cancelarbutton.Name = "Cancelarbutton";
@@ -66,6 +67,7 @@
             this.Cancelarbutton.TabIndex = 11;
             this.Cancelarbutton.Text = "Cancelar";
             this.Cancelarbutton.UseVisualStyleBackColor = false;
+            this.Cancelarbutton.Click += new System.EventHandler(this.Cancelarbutton_Click);
             // 
             // Ingresarbutton
             // 
@@ -123,7 +125,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.CancelButton = this.Cancelarbutton;
             this.ClientSize = new System.Drawing.Size(380, 192);
+            this.ControlBox = false;
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Cancelarbutton);
@@ -133,6 +137,7 @@
             this.Controls.Add(this.PasswordtextBox);
             this.Controls.Add(this.UsuariotextBox);
             this.Name = "LoginForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Login";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
