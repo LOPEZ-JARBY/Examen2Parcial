@@ -63,6 +63,16 @@ namespace Examen_2Parcial.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap camion {
+            get {
+                object obj = ResourceManager.GetObject("camion", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cerrar_con_llave {
             get {
                 object obj = ResourceManager.GetObject("cerrar-con-llave", resourceCulture);
@@ -83,9 +93,29 @@ namespace Examen_2Parcial.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap conversion {
+            get {
+                object obj = ResourceManager.GetObject("conversion", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap editar_informacion {
             get {
                 object obj = ResourceManager.GetObject("editar-informacion", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap herramientas_para_reparar {
+            get {
+                object obj = ResourceManager.GetObject("herramientas-para-reparar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

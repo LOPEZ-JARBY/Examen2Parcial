@@ -77,6 +77,7 @@
             this.Ingresarbutton.TabIndex = 10;
             this.Ingresarbutton.Text = "Ingresar";
             this.Ingresarbutton.UseVisualStyleBackColor = false;
+            this.Ingresarbutton.Click += new System.EventHandler(this.Ingresarbutton_Click);
             // 
             // pictureBox2
             // 
@@ -118,6 +119,7 @@
             // 
             // LoginForm
             // 
+            this.AcceptButton = this.Ingresarbutton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;

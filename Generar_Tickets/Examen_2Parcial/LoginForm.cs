@@ -16,5 +16,10 @@ namespace Examen_2Parcial
         {
             InitializeComponent();
         }
+
+        private void Ingresarbutton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

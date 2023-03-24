@@ -121,5 +121,14 @@
   <ItemGroup>
     <None Include="Resources\computadora-portatil.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\conversion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\herramientas-para-reparar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camion.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
