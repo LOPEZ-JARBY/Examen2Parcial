@@ -8,5 +8,6 @@ namespace ENTIDADES
 {
     public class Ticket
     {
+        public DateTime Fecha { get; set; }
     }
 }

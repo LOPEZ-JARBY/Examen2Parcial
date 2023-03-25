@@ -28,14 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.PasswordtextBox = new System.Windows.Forms.TextBox();
             this.UsuariotextBox = new System.Windows.Forms.TextBox();
             this.Cancelarbutton = new System.Windows.Forms.Button();
             this.Ingresarbutton = new System.Windows.Forms.Button();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.MostrarPasswordbutton = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -80,6 +84,21 @@
             this.Ingresarbutton.Text = "Ingresar";
             this.Ingresarbutton.UseVisualStyleBackColor = false;
             this.Ingresarbutton.Click += new System.EventHandler(this.Ingresarbutton_Click);
+            // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
+            // MostrarPasswordbutton
+            // 
+            this.MostrarPasswordbutton.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.MostrarPasswordbutton.Image = global::Examen_2Parcial.Properties.Resources.ojo_rojo;
+            this.MostrarPasswordbutton.Location = new System.Drawing.Point(335, 86);
+            this.MostrarPasswordbutton.Name = "MostrarPasswordbutton";
+            this.MostrarPasswordbutton.Size = new System.Drawing.Size(33, 24);
+            this.MostrarPasswordbutton.TabIndex = 14;
+            this.MostrarPasswordbutton.UseVisualStyleBackColor = false;
+            this.MostrarPasswordbutton.Click += new System.EventHandler(this.MostrarPasswordbutton_Click);
             // 
             // pictureBox2
             // 
@@ -128,6 +147,7 @@
             this.CancelButton = this.Cancelarbutton;
             this.ClientSize = new System.Drawing.Size(380, 192);
             this.ControlBox = false;
+            this.Controls.Add(this.MostrarPasswordbutton);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Cancelarbutton);
@@ -137,8 +157,9 @@
             this.Controls.Add(this.PasswordtextBox);
             this.Controls.Add(this.UsuariotextBox);
             this.Name = "LoginForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -156,6 +177,8 @@
         private System.Windows.Forms.Button Ingresarbutton;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
+        private System.Windows.Forms.Button MostrarPasswordbutton;
     }
 }
 

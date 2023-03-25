@@ -40,20 +40,23 @@
             this.FechatextBox = new System.Windows.Forms.TextBox();
             this.UsuariotextBox = new System.Windows.Forms.TextBox();
             this.ClientetextBox = new System.Windows.Forms.TextBox();
-            this.TipoSoportetextBox = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.PreciotextBox = new System.Windows.Forms.TextBox();
             this.ImpuestotextBox = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.TipoSoportecomboBox = new System.Windows.Forms.ComboBox();
+            this.TicketdataGridView = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TicketdataGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(120, 21);
+            this.label1.Location = new System.Drawing.Point(193, 21);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(107, 25);
             this.label1.TabIndex = 20;
@@ -89,7 +92,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(244, 101);
+            this.label5.Location = new System.Drawing.Point(5, 321);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(92, 16);
             this.label5.TabIndex = 25;
@@ -98,7 +101,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(304, 137);
+            this.label6.Location = new System.Drawing.Point(5, 362);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(154, 16);
             this.label6.TabIndex = 26;
@@ -152,16 +155,9 @@
             this.ClientetextBox.Size = new System.Drawing.Size(149, 22);
             this.ClientetextBox.TabIndex = 32;
             // 
-            // TipoSoportetextBox
-            // 
-            this.TipoSoportetextBox.Location = new System.Drawing.Point(342, 98);
-            this.TipoSoportetextBox.Name = "TipoSoportetextBox";
-            this.TipoSoportetextBox.Size = new System.Drawing.Size(149, 22);
-            this.TipoSoportetextBox.TabIndex = 33;
-            // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(464, 137);
+            this.textBox2.Location = new System.Drawing.Point(165, 362);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(235, 22);
             this.textBox2.TabIndex = 34;
@@ -190,24 +186,58 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Examen_2Parcial.Properties.Resources.computadora_portatil;
-            this.pictureBox1.Location = new System.Drawing.Point(38, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(111, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(67, 65);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 21;
             this.pictureBox1.TabStop = false;
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(184, 61);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(205, 16);
+            this.label10.TabIndex = 38;
+            this.label10.Text = "SOLICITUD DE MATENIMIENTO";
+            // 
+            // TipoSoportecomboBox
+            // 
+            this.TipoSoportecomboBox.FormattingEnabled = true;
+            this.TipoSoportecomboBox.Items.AddRange(new object[] {
+            "Mantenimiento preventivo.",
+            "Limpieza",
+            "Reparacion"});
+            this.TipoSoportecomboBox.Location = new System.Drawing.Point(109, 321);
+            this.TipoSoportecomboBox.Name = "TipoSoportecomboBox";
+            this.TipoSoportecomboBox.Size = new System.Drawing.Size(121, 24);
+            this.TipoSoportecomboBox.TabIndex = 39;
+            // 
+            // TicketdataGridView
+            // 
+            this.TicketdataGridView.BackgroundColor = System.Drawing.SystemColors.HighlightText;
+            this.TicketdataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.TicketdataGridView.Location = new System.Drawing.Point(-2, 442);
+            this.TicketdataGridView.Name = "TicketdataGridView";
+            this.TicketdataGridView.RowHeadersWidth = 51;
+            this.TicketdataGridView.RowTemplate.Height = 24;
+            this.TicketdataGridView.Size = new System.Drawing.Size(503, 150);
+            this.TicketdataGridView.TabIndex = 40;
+            // 
             // TicketForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.GhostWhite;
-            this.ClientSize = new System.Drawing.Size(713, 431);
+            this.BackColor = System.Drawing.Color.Lavender;
+            this.ClientSize = new System.Drawing.Size(504, 593);
+            this.Controls.Add(this.TicketdataGridView);
+            this.Controls.Add(this.TipoSoportecomboBox);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.ImpuestotextBox);
             this.Controls.Add(this.PreciotextBox);
             this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.TipoSoportetextBox);
             this.Controls.Add(this.ClientetextBox);
             this.Controls.Add(this.UsuariotextBox);
             this.Controls.Add(this.FechatextBox);
@@ -222,8 +252,10 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Name = "TicketForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultBounds;
             this.Text = "TicketForm";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TicketdataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -244,10 +276,12 @@
         private System.Windows.Forms.TextBox FechatextBox;
         private System.Windows.Forms.TextBox UsuariotextBox;
         private System.Windows.Forms.TextBox ClientetextBox;
-        private System.Windows.Forms.TextBox TipoSoportetextBox;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox PreciotextBox;
         private System.Windows.Forms.TextBox ImpuestotextBox;
         private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.ComboBox TipoSoportecomboBox;
+        private System.Windows.Forms.DataGridView TicketdataGridView;
     }
 }

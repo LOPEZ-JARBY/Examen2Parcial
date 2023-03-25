@@ -123,6 +123,16 @@ namespace Examen_2Parcial.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ojo_rojo {
+            get {
+                object obj = ResourceManager.GetObject("ojo-rojo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap perfil_del_usuario {
             get {
                 object obj = ResourceManager.GetObject("perfil-del-usuario", resourceCulture);

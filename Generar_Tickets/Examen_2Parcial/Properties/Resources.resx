@@ -121,8 +121,8 @@
   <data name="conversion" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\conversion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="herramientas-para-reparar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\herramientas-para-reparar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="computadora-portatil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\computadora-portatil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="perfil-del-usuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\perfil-del-usuario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -130,16 +130,19 @@
   <data name="editar-informacion" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\editar-informacion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cerrar-con-llave" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cerrar-con-llave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="usuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\usuario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="computadora-portatil" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\computadora-portatil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="camion" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\camion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cerrar-con-llave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cerrar-con-llave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="herramientas-para-reparar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\herramientas-para-reparar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ojo-rojo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ojo-rojo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

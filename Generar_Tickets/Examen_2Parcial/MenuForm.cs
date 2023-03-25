@@ -16,5 +16,27 @@ namespace Examen_2Parcial
         {
             InitializeComponent();
         }
+
+        private void toolStripButton2_Click(object sender, EventArgs e)
+        {
+            TicketForm ticketForm = new TicketForm();
+            ticketForm.MdiParent= this;
+            ticketForm.Show();
+        }
+
+        private void toolStripButton3_Click(object sender, EventArgs e)
+        {
+            TicketForm ticketForm = new TicketForm();
+            ticketForm.MdiParent = this;
+            ticketForm.Show();
+
+        }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            UsuariosForm usuarios = new UsuariosForm();
+            usuarios.MdiParent = this;
+            usuarios.Show();
+        }
     }
 }
