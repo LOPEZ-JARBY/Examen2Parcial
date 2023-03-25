@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuForm));
-            this.ribbonControlAdv1 = new Syncfusion.Windows.Forms.Tools.RibbonControlAdv();
+            this.MenuribbonControlAdv = new Syncfusion.Windows.Forms.Tools.RibbonControlAdv();
             this.toolStripTabItem1 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             this.toolStripEx2 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
@@ -41,8 +41,8 @@
             this.toolStripTabItem3 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             this.toolStripEx4 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
             this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
-            ((System.ComponentModel.ISupportInitialize)(this.ribbonControlAdv1)).BeginInit();
-            this.ribbonControlAdv1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.MenuribbonControlAdv)).BeginInit();
+            this.MenuribbonControlAdv.SuspendLayout();
             this.toolStripTabItem1.Panel.SuspendLayout();
             this.toolStripEx2.SuspendLayout();
             this.toolStripTabItem2.Panel.SuspendLayout();
@@ -52,48 +52,49 @@
             this.toolStripEx4.SuspendLayout();
             this.SuspendLayout();
             // 
-            // ribbonControlAdv1
+            // MenuribbonControlAdv
             // 
-            this.ribbonControlAdv1.BackColor = System.Drawing.Color.White;
-            this.ribbonControlAdv1.CaptionFont = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            resources.ApplyResources(this.ribbonControlAdv1, "ribbonControlAdv1");
-            this.ribbonControlAdv1.Header.AddMainItem(toolStripTabItem1);
-            this.ribbonControlAdv1.Header.AddMainItem(toolStripTabItem2);
-            this.ribbonControlAdv1.Header.AddMainItem(toolStripTabItem3);
-            this.ribbonControlAdv1.MenuButtonFont = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.ribbonControlAdv1.MenuButtonText = "";
-            this.ribbonControlAdv1.MenuButtonWidth = 56;
-            this.ribbonControlAdv1.MenuColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(114)))), ((int)(((byte)(198)))));
-            this.ribbonControlAdv1.Name = "ribbonControlAdv1";
-            this.ribbonControlAdv1.OfficeColorScheme = Syncfusion.Windows.Forms.Tools.ToolStripEx.ColorScheme.Managed;
+            resources.ApplyResources(this.MenuribbonControlAdv, "MenuribbonControlAdv");
+            this.MenuribbonControlAdv.BackColor = System.Drawing.Color.White;
+            this.MenuribbonControlAdv.BorderStyle = Syncfusion.Windows.Forms.Tools.ToolStripBorderStyle.StaticEdge;
+            this.MenuribbonControlAdv.CaptionFont = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MenuribbonControlAdv.Header.AddMainItem(toolStripTabItem1);
+            this.MenuribbonControlAdv.Header.AddMainItem(toolStripTabItem2);
+            this.MenuribbonControlAdv.Header.AddMainItem(toolStripTabItem3);
+            this.MenuribbonControlAdv.MenuButtonFont = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.MenuribbonControlAdv.MenuButtonText = "";
+            this.MenuribbonControlAdv.MenuButtonWidth = 56;
+            this.MenuribbonControlAdv.MenuColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(114)))), ((int)(((byte)(198)))));
+            this.MenuribbonControlAdv.Name = "MenuribbonControlAdv";
+            this.MenuribbonControlAdv.OfficeColorScheme = Syncfusion.Windows.Forms.Tools.ToolStripEx.ColorScheme.Managed;
             // 
-            // ribbonControlAdv1.OfficeMenu
+            // MenuribbonControlAdv.OfficeMenu
             // 
-            this.ribbonControlAdv1.OfficeMenu.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.ribbonControlAdv1.OfficeMenu.Name = "OfficeMenu";
-            this.ribbonControlAdv1.OfficeMenu.ShowItemToolTips = true;
-            resources.ApplyResources(this.ribbonControlAdv1.OfficeMenu, "ribbonControlAdv1.OfficeMenu");
-            this.ribbonControlAdv1.QuickPanelImageLayout = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.ribbonControlAdv1.RibbonHeaderImage = Syncfusion.Windows.Forms.Tools.RibbonHeaderImage.None;
-            this.ribbonControlAdv1.RibbonStyle = Syncfusion.Windows.Forms.Tools.RibbonStyle.Office2016;
-            this.ribbonControlAdv1.SelectedTab = this.toolStripTabItem1;
-            this.ribbonControlAdv1.ShowRibbonDisplayOptionButton = true;
-            this.ribbonControlAdv1.SystemText.QuickAccessDialogDropDownName = "Start menu";
-            this.ribbonControlAdv1.SystemText.RenameDisplayLabelText = "&Display Name:";
-            this.ribbonControlAdv1.ThemeName = "Office2016";
-            this.ribbonControlAdv1.ThemeStyle.MoreCommandsStyle.PropertyGridViewBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.MenuribbonControlAdv.OfficeMenu.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.MenuribbonControlAdv.OfficeMenu.Name = "OfficeMenu";
+            this.MenuribbonControlAdv.OfficeMenu.ShowItemToolTips = true;
+            resources.ApplyResources(this.MenuribbonControlAdv.OfficeMenu, "MenuribbonControlAdv.OfficeMenu");
+            this.MenuribbonControlAdv.QuickPanelImageLayout = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.MenuribbonControlAdv.RibbonHeaderImage = Syncfusion.Windows.Forms.Tools.RibbonHeaderImage.None;
+            this.MenuribbonControlAdv.RibbonStyle = Syncfusion.Windows.Forms.Tools.RibbonStyle.Office2016;
+            this.MenuribbonControlAdv.SelectedTab = this.toolStripTabItem2;
+            this.MenuribbonControlAdv.ShowRibbonDisplayOptionButton = true;
+            this.MenuribbonControlAdv.SystemText.QuickAccessDialogDropDownName = "Start menu";
+            this.MenuribbonControlAdv.SystemText.RenameDisplayLabelText = "&Display Name:";
+            this.MenuribbonControlAdv.ThemeName = "Office2016";
+            this.MenuribbonControlAdv.ThemeStyle.MoreCommandsStyle.PropertyGridViewBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
             // 
             // toolStripTabItem1
             // 
             resources.ApplyResources(this.toolStripTabItem1, "toolStripTabItem1");
             this.toolStripTabItem1.Name = "toolStripTabItem1";
             // 
-            // ribbonControlAdv1.ribbonPanel1
+            // MenuribbonControlAdv.ribbonPanel1
             // 
             this.toolStripTabItem1.Panel.Controls.Add(this.toolStripEx2);
             this.toolStripTabItem1.Panel.Name = "ribbonPanel1";
             this.toolStripTabItem1.Panel.ScrollPosition = 0;
-            resources.ApplyResources(this.toolStripTabItem1.Panel, "ribbonControlAdv1.ribbonPanel1");
+            resources.ApplyResources(this.toolStripTabItem1.Panel, "MenuribbonControlAdv.ribbonPanel1");
             this.toolStripTabItem1.Position = 0;
             this.toolStripTabItem1.Tag = "1";
             // 
@@ -121,13 +122,13 @@
             resources.ApplyResources(this.toolStripTabItem2, "toolStripTabItem2");
             this.toolStripTabItem2.Name = "toolStripTabItem2";
             // 
-            // ribbonControlAdv1.ribbonPanel2
+            // MenuribbonControlAdv.ribbonPanel2
             // 
             this.toolStripTabItem2.Panel.Controls.Add(this.toolStripEx1);
             this.toolStripTabItem2.Panel.Controls.Add(this.toolStripEx3);
             this.toolStripTabItem2.Panel.Name = "ribbonPanel2";
             this.toolStripTabItem2.Panel.ScrollPosition = 0;
-            resources.ApplyResources(this.toolStripTabItem2.Panel, "ribbonControlAdv1.ribbonPanel2");
+            resources.ApplyResources(this.toolStripTabItem2.Panel, "MenuribbonControlAdv.ribbonPanel2");
             this.toolStripTabItem2.Position = 1;
             this.toolStripTabItem2.Tag = "2";
             // 
@@ -173,12 +174,12 @@
             resources.ApplyResources(this.toolStripTabItem3, "toolStripTabItem3");
             this.toolStripTabItem3.Name = "toolStripTabItem3";
             // 
-            // ribbonControlAdv1.ribbonPanel3
+            // MenuribbonControlAdv.ribbonPanel3
             // 
             this.toolStripTabItem3.Panel.Controls.Add(this.toolStripEx4);
             this.toolStripTabItem3.Panel.Name = "ribbonPanel3";
             this.toolStripTabItem3.Panel.ScrollPosition = 0;
-            resources.ApplyResources(this.toolStripTabItem3.Panel, "ribbonControlAdv1.ribbonPanel3");
+            resources.ApplyResources(this.toolStripTabItem3.Panel, "MenuribbonControlAdv.ribbonPanel3");
             this.toolStripTabItem3.Position = 2;
             this.toolStripTabItem3.Tag = "3";
             // 
@@ -205,12 +206,12 @@
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
-            this.Controls.Add(this.ribbonControlAdv1);
+            this.Controls.Add(this.MenuribbonControlAdv);
             this.IsMdiContainer = true;
             this.Name = "MenuForm";
-            ((System.ComponentModel.ISupportInitialize)(this.ribbonControlAdv1)).EndInit();
-            this.ribbonControlAdv1.ResumeLayout(false);
-            this.ribbonControlAdv1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.MenuribbonControlAdv)).EndInit();
+            this.MenuribbonControlAdv.ResumeLayout(false);
+            this.MenuribbonControlAdv.PerformLayout();
             this.toolStripTabItem1.Panel.ResumeLayout(false);
             this.toolStripTabItem1.Panel.PerformLayout();
             this.toolStripEx2.ResumeLayout(false);
@@ -231,7 +232,7 @@
 
         #endregion
 
-        private Syncfusion.Windows.Forms.Tools.RibbonControlAdv ribbonControlAdv1;
+        private Syncfusion.Windows.Forms.Tools.RibbonControlAdv MenuribbonControlAdv;
         private Syncfusion.Windows.Forms.Tools.ToolStripTabItem toolStripTabItem1;
         private Syncfusion.Windows.Forms.Tools.ToolStripEx toolStripEx2;
         private Syncfusion.Windows.Forms.Tools.ToolStripTabItem toolStripTabItem2;

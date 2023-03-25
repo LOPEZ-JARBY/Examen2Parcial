@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -40,16 +41,25 @@
             this.FechatextBox = new System.Windows.Forms.TextBox();
             this.UsuariotextBox = new System.Windows.Forms.TextBox();
             this.ClientetextBox = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.DescripcionResptextBox = new System.Windows.Forms.TextBox();
             this.PreciotextBox = new System.Windows.Forms.TextBox();
             this.ImpuestotextBox = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.DescuentotextBox = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label10 = new System.Windows.Forms.Label();
             this.TipoSoportecomboBox = new System.Windows.Forms.ComboBox();
             this.TicketdataGridView = new System.Windows.Forms.DataGridView();
+            this.Añadirticketbutton = new System.Windows.Forms.Button();
+            this.Cancelarticketbutton = new System.Windows.Forms.Button();
+            this.Nuevoticketbutton = new System.Windows.Forms.Button();
+            this.DescripcionSolitextBox = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.TotaltextBox = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TicketdataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -92,7 +102,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(5, 321);
+            this.label5.Location = new System.Drawing.Point(7, 348);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(92, 16);
             this.label5.TabIndex = 25;
@@ -101,7 +111,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(5, 362);
+            this.label6.Location = new System.Drawing.Point(8, 427);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(154, 16);
             this.label6.TabIndex = 26;
@@ -136,6 +146,7 @@
             // 
             // FechatextBox
             // 
+            this.FechatextBox.Enabled = false;
             this.FechatextBox.Location = new System.Drawing.Point(97, 98);
             this.FechatextBox.Name = "FechatextBox";
             this.FechatextBox.Size = new System.Drawing.Size(114, 22);
@@ -143,6 +154,7 @@
             // 
             // UsuariotextBox
             // 
+            this.UsuariotextBox.Enabled = false;
             this.UsuariotextBox.Location = new System.Drawing.Point(97, 134);
             this.UsuariotextBox.Name = "UsuariotextBox";
             this.UsuariotextBox.Size = new System.Drawing.Size(201, 22);
@@ -150,20 +162,23 @@
             // 
             // ClientetextBox
             // 
+            this.ClientetextBox.Enabled = false;
             this.ClientetextBox.Location = new System.Drawing.Point(96, 171);
             this.ClientetextBox.Name = "ClientetextBox";
-            this.ClientetextBox.Size = new System.Drawing.Size(149, 22);
+            this.ClientetextBox.Size = new System.Drawing.Size(202, 22);
             this.ClientetextBox.TabIndex = 32;
             // 
-            // textBox2
+            // DescripcionResptextBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(165, 362);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(235, 22);
-            this.textBox2.TabIndex = 34;
+            this.DescripcionResptextBox.Enabled = false;
+            this.DescripcionResptextBox.Location = new System.Drawing.Point(168, 427);
+            this.DescripcionResptextBox.Name = "DescripcionResptextBox";
+            this.DescripcionResptextBox.Size = new System.Drawing.Size(235, 22);
+            this.DescripcionResptextBox.TabIndex = 34;
             // 
             // PreciotextBox
             // 
+            this.PreciotextBox.Enabled = false;
             this.PreciotextBox.Location = new System.Drawing.Point(96, 205);
             this.PreciotextBox.Name = "PreciotextBox";
             this.PreciotextBox.Size = new System.Drawing.Size(114, 22);
@@ -171,17 +186,19 @@
             // 
             // ImpuestotextBox
             // 
+            this.ImpuestotextBox.Enabled = false;
             this.ImpuestotextBox.Location = new System.Drawing.Point(96, 279);
             this.ImpuestotextBox.Name = "ImpuestotextBox";
             this.ImpuestotextBox.Size = new System.Drawing.Size(96, 22);
             this.ImpuestotextBox.TabIndex = 36;
             // 
-            // textBox3
+            // DescuentotextBox
             // 
-            this.textBox3.Location = new System.Drawing.Point(97, 244);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(133, 22);
-            this.textBox3.TabIndex = 37;
+            this.DescuentotextBox.Enabled = false;
+            this.DescuentotextBox.Location = new System.Drawing.Point(97, 244);
+            this.DescuentotextBox.Name = "DescuentotextBox";
+            this.DescuentotextBox.Size = new System.Drawing.Size(133, 22);
+            this.DescuentotextBox.TabIndex = 37;
             // 
             // pictureBox1
             // 
@@ -204,40 +221,126 @@
             // 
             // TipoSoportecomboBox
             // 
+            this.TipoSoportecomboBox.Enabled = false;
             this.TipoSoportecomboBox.FormattingEnabled = true;
             this.TipoSoportecomboBox.Items.AddRange(new object[] {
             "Mantenimiento preventivo.",
             "Limpieza",
             "Reparacion"});
-            this.TipoSoportecomboBox.Location = new System.Drawing.Point(109, 321);
+            this.TipoSoportecomboBox.Location = new System.Drawing.Point(105, 345);
             this.TipoSoportecomboBox.Name = "TipoSoportecomboBox";
-            this.TipoSoportecomboBox.Size = new System.Drawing.Size(121, 24);
+            this.TipoSoportecomboBox.Size = new System.Drawing.Size(189, 24);
             this.TipoSoportecomboBox.TabIndex = 39;
             // 
             // TicketdataGridView
             // 
+            this.TicketdataGridView.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.TicketdataGridView.BackgroundColor = System.Drawing.SystemColors.HighlightText;
             this.TicketdataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.TicketdataGridView.Location = new System.Drawing.Point(-2, 442);
+            this.TicketdataGridView.Location = new System.Drawing.Point(-2, 527);
             this.TicketdataGridView.Name = "TicketdataGridView";
             this.TicketdataGridView.RowHeadersWidth = 51;
             this.TicketdataGridView.RowTemplate.Height = 24;
-            this.TicketdataGridView.Size = new System.Drawing.Size(503, 150);
+            this.TicketdataGridView.Size = new System.Drawing.Size(640, 150);
             this.TicketdataGridView.TabIndex = 40;
+            // 
+            // Añadirticketbutton
+            // 
+            this.Añadirticketbutton.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Añadirticketbutton.Enabled = false;
+            this.Añadirticketbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Añadirticketbutton.Location = new System.Drawing.Point(207, 471);
+            this.Añadirticketbutton.Name = "Añadirticketbutton";
+            this.Añadirticketbutton.Size = new System.Drawing.Size(115, 35);
+            this.Añadirticketbutton.TabIndex = 41;
+            this.Añadirticketbutton.Text = "Añadir ticket";
+            this.Añadirticketbutton.UseVisualStyleBackColor = false;
+            this.Añadirticketbutton.Click += new System.EventHandler(this.Añadirticketbutton_Click);
+            // 
+            // Cancelarticketbutton
+            // 
+            this.Cancelarticketbutton.BackColor = System.Drawing.Color.White;
+            this.Cancelarticketbutton.Enabled = false;
+            this.Cancelarticketbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Cancelarticketbutton.Location = new System.Drawing.Point(337, 471);
+            this.Cancelarticketbutton.Name = "Cancelarticketbutton";
+            this.Cancelarticketbutton.Size = new System.Drawing.Size(126, 35);
+            this.Cancelarticketbutton.TabIndex = 42;
+            this.Cancelarticketbutton.Text = "Cancelar ticket";
+            this.Cancelarticketbutton.UseVisualStyleBackColor = false;
+            this.Cancelarticketbutton.Click += new System.EventHandler(this.Cancelarticketbutton_Click);
+            // 
+            // Nuevoticketbutton
+            // 
+            this.Nuevoticketbutton.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Nuevoticketbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Nuevoticketbutton.Location = new System.Drawing.Point(74, 471);
+            this.Nuevoticketbutton.Name = "Nuevoticketbutton";
+            this.Nuevoticketbutton.Size = new System.Drawing.Size(115, 35);
+            this.Nuevoticketbutton.TabIndex = 43;
+            this.Nuevoticketbutton.Text = "Nuevo ticket";
+            this.Nuevoticketbutton.UseVisualStyleBackColor = false;
+            this.Nuevoticketbutton.Click += new System.EventHandler(this.Nuevoticketbutton_Click);
+            // 
+            // DescripcionSolitextBox
+            // 
+            this.DescripcionSolitextBox.Enabled = false;
+            this.DescripcionSolitextBox.Location = new System.Drawing.Point(168, 388);
+            this.DescripcionSolitextBox.Name = "DescripcionSolitextBox";
+            this.DescripcionSolitextBox.Size = new System.Drawing.Size(235, 22);
+            this.DescripcionSolitextBox.TabIndex = 45;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(17, 388);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(139, 16);
+            this.label11.TabIndex = 44;
+            this.label11.Text = "Descripcion Solicitud :";
+            // 
+            // TotaltextBox
+            // 
+            this.TotaltextBox.Enabled = false;
+            this.TotaltextBox.Location = new System.Drawing.Point(96, 317);
+            this.TotaltextBox.Name = "TotaltextBox";
+            this.TotaltextBox.Size = new System.Drawing.Size(96, 22);
+            this.TotaltextBox.TabIndex = 47;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(35, 317);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(44, 16);
+            this.label12.TabIndex = 46;
+            this.label12.Text = "Total :";
+            // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
             // 
             // TicketForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
-            this.ClientSize = new System.Drawing.Size(504, 593);
+            this.ClientSize = new System.Drawing.Size(641, 661);
+            this.Controls.Add(this.TotaltextBox);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.DescripcionSolitextBox);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.Nuevoticketbutton);
+            this.Controls.Add(this.Cancelarticketbutton);
+            this.Controls.Add(this.Añadirticketbutton);
             this.Controls.Add(this.TicketdataGridView);
             this.Controls.Add(this.TipoSoportecomboBox);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.DescuentotextBox);
             this.Controls.Add(this.ImpuestotextBox);
             this.Controls.Add(this.PreciotextBox);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.DescripcionResptextBox);
             this.Controls.Add(this.ClientetextBox);
             this.Controls.Add(this.UsuariotextBox);
             this.Controls.Add(this.FechatextBox);
@@ -252,10 +355,11 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Name = "TicketForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultBounds;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TicketForm";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TicketdataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -276,12 +380,20 @@
         private System.Windows.Forms.TextBox FechatextBox;
         private System.Windows.Forms.TextBox UsuariotextBox;
         private System.Windows.Forms.TextBox ClientetextBox;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox DescripcionResptextBox;
         private System.Windows.Forms.TextBox PreciotextBox;
         private System.Windows.Forms.TextBox ImpuestotextBox;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox DescuentotextBox;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.ComboBox TipoSoportecomboBox;
         private System.Windows.Forms.DataGridView TicketdataGridView;
+        private System.Windows.Forms.Button Añadirticketbutton;
+        private System.Windows.Forms.Button Cancelarticketbutton;
+        private System.Windows.Forms.Button Nuevoticketbutton;
+        private System.Windows.Forms.TextBox DescripcionSolitextBox;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox TotaltextBox;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }
