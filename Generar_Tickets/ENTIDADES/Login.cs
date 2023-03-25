@@ -10,6 +10,8 @@ namespace ENTIDADES
     {
        public String Usuario { get; set; }
         public String Password { get; set; }
+        public object CodigoUsuario { get; set; }
+        public object Contraseña { get; set; }
 
         public Login()
         {

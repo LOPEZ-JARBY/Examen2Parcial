@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace Examen_2Parcial
 {
@@ -18,6 +19,10 @@ namespace Examen_2Parcial
         }
         String agregar;
 
+        double PrecioTotal =0;
+        double Precio = 0;
+        double impuesto = 0.15;
+
         private void Nuevoticketbutton_Click(object sender, EventArgs e)
         {
             UsuariotextBox.Focus();
@@ -27,7 +32,7 @@ namespace Examen_2Parcial
         }
         private void HabilitarControles()
         {
-            FechatextBox.Enabled = true;
+            FechadateTimePicker.Enabled = true;
             UsuariotextBox.Enabled = true;
             ClientetextBox.Enabled = true;
             TipoSoportecomboBox.Enabled = true;
@@ -35,15 +40,16 @@ namespace Examen_2Parcial
             DescripcionSolitextBox.Enabled = true;
             PreciotextBox.Enabled = true;
             ImpuestotextBox.Enabled = true;
-            DescuentotextBox.Enabled = true;
+            DescuentocomboBox.Enabled = true;
             TotaltextBox.Enabled = true;
             Añadirticketbutton.Enabled = true;
             Cancelarticketbutton.Enabled = true;
+            SubTotaltextBox.Enabled = true;
         }
 
         private void DeshabilitarControles()
         {
-            FechatextBox.Enabled = false;
+            FechadateTimePicker.Enabled = false;
             UsuariotextBox.Enabled = false;
             ClientetextBox.Enabled = false;
             TipoSoportecomboBox.Enabled = false;
@@ -51,14 +57,15 @@ namespace Examen_2Parcial
             DescripcionSolitextBox.Enabled = false;
             PreciotextBox.Enabled = false;
             ImpuestotextBox.Enabled = false;
-            DescuentotextBox.Enabled = false;
+            DescuentocomboBox.Enabled = false;
             TotaltextBox.Enabled = false;
             Añadirticketbutton.Enabled = false;
+            SubTotaltextBox.Enabled = true;
         }
 
         private void LimpiarControles()
         {
-            FechatextBox.Clear();
+            //FechadateTimePicker. Clear();
             UsuariotextBox.Clear();
             ClientetextBox.Clear();
             TipoSoportecomboBox.Text = string.Empty;
@@ -66,8 +73,9 @@ namespace Examen_2Parcial
             DescripcionSolitextBox.Clear();
             PreciotextBox.Clear();
             ImpuestotextBox.Clear();
-            DescuentotextBox.Clear();
+            DescuentocomboBox.Text = String.Empty;
             TotaltextBox.Clear();
+            SubTotaltextBox.Clear();
         }
 
         private void Cancelarticketbutton_Click(object sender, EventArgs e)
@@ -80,10 +88,10 @@ namespace Examen_2Parcial
         {
             if (agregar == "Nuevo ticket")
             {
-                if (string.IsNullOrEmpty(FechatextBox.Text))
+                if (string.IsNullOrEmpty(FechadateTimePicker.Text))
                 {
-                    errorProvider1.SetError(FechatextBox, "Ingrese la fecha");
-                    FechatextBox.Focus();
+                    errorProvider1.SetError(FechadateTimePicker, "Ingrese la fecha");
+                    FechadateTimePicker.Focus();
                     return;
                 }
                 errorProvider1.Clear();
@@ -110,12 +118,19 @@ namespace Examen_2Parcial
                     PreciotextBox.Focus();
                     return;
                 }
+                else {
+
+                    // ImpuestotextBox = PreciotextBox * 0.15;
+
+                  
+                   
+                }
                 errorProvider1.Clear();
 
-                if (string.IsNullOrEmpty(DescuentotextBox.Text))
+                if (string.IsNullOrEmpty(DescuentocomboBox.Text))
                 {
-                    errorProvider1.SetError(DescuentotextBox, "Ingrese el descuento");
-                    DescuentotextBox.Focus();
+                    errorProvider1.SetError(DescuentocomboBox, "Ingrese el descuento");
+                    DescuentocomboBox.Focus();
                     return;
                 }
                 errorProvider1.Clear();
@@ -162,9 +177,28 @@ namespace Examen_2Parcial
             }
             else
             {
+                MessageBox.Show("Tu ticket se añadio con exito");
 
             }
 
+        }
+
+        private void TicketdataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void PreciotextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && (e.KeyChar != '.') && e.KeyChar != '\b')
+            {
+                e.Handled = true;
+            }
+
+            if ((e.KeyChar == '.') && (sender as TextBox).Text.IndexOf('.') > -1)
+            {
+                e.Handled = true;
+            }
         }
     }
 }

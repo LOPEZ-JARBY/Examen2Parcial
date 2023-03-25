@@ -142,5 +142,15 @@
   <ItemGroup>
     <None Include="Resources\ojo-rojo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DATOS\DATOS.csproj">
+      <Project>{8058449E-6D47-4BCA-B2EE-9854EA4152E0}</Project>
+      <Name>DATOS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ENTIDADES\ENTIDADES.csproj">
+      <Project>{7F22A07C-3EAE-46B8-A7C5-709D1AB5CE8E}</Project>
+      <Name>ENTIDADES</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

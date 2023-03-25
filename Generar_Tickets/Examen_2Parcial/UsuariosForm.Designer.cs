@@ -46,6 +46,8 @@
             this.Cancelarbutton = new System.Windows.Forms.Button();
             this.Nuevobutton = new System.Windows.Forms.Button();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.ContraseñatextBox = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.UsuariosdataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
@@ -54,7 +56,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(168, 56);
+            this.label1.Location = new System.Drawing.Point(168, 30);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(123, 16);
             this.label1.TabIndex = 0;
@@ -63,7 +65,7 @@
             // CodigoUsuariotextBox
             // 
             this.CodigoUsuariotextBox.Enabled = false;
-            this.CodigoUsuariotextBox.Location = new System.Drawing.Point(302, 53);
+            this.CodigoUsuariotextBox.Location = new System.Drawing.Point(302, 27);
             this.CodigoUsuariotextBox.Name = "CodigoUsuariotextBox";
             this.CodigoUsuariotextBox.Size = new System.Drawing.Size(100, 22);
             this.CodigoUsuariotextBox.TabIndex = 1;
@@ -218,12 +220,32 @@
             // 
             this.errorProvider1.ContainerControl = this;
             // 
+            // ContraseñatextBox
+            // 
+            this.ContraseñatextBox.Enabled = false;
+            this.ContraseñatextBox.Location = new System.Drawing.Point(302, 55);
+            this.ContraseñatextBox.Name = "ContraseñatextBox";
+            this.ContraseñatextBox.Size = new System.Drawing.Size(100, 22);
+            this.ContraseñatextBox.TabIndex = 22;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(195, 61);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(94, 16);
+            this.label7.TabIndex = 21;
+            this.label7.Text = "Contraseña :";
+            // 
             // UsuariosForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightBlue;
             this.ClientSize = new System.Drawing.Size(686, 521);
+            this.Controls.Add(this.ContraseñatextBox);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.Nuevobutton);
             this.Controls.Add(this.Cancelarbutton);
             this.Controls.Add(this.Generarbutton);
@@ -244,6 +266,7 @@
             this.Name = "UsuariosForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UsuariosForm";
+            this.Load += new System.EventHandler(this.UsuariosForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.UsuariosdataGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
@@ -270,5 +293,7 @@
         private System.Windows.Forms.Button Cancelarbutton;
         private System.Windows.Forms.Button Nuevobutton;
         private System.Windows.Forms.ErrorProvider errorProvider1;
+        private System.Windows.Forms.TextBox ContraseñatextBox;
+        private System.Windows.Forms.Label label7;
     }
 }

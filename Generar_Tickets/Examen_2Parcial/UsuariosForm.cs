@@ -1,7 +1,10 @@
-﻿using System;
+﻿using DATOS;
+using ENTIDADES;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
@@ -14,13 +17,18 @@ namespace Examen_2Parcial
         {
             InitializeComponent();
         }
-        String Generar;
+        String operacion;
+
+        DataTable dt = new DataTable();
+        UsuarioDB UsuarioDB = new UsuarioDB();
+
+        Usuario user = new Usuario();
 
         private void button3_Click(object sender, EventArgs e)
         {
             CodigoUsuariotextBox.Focus();
             HabilitarControles();
-            Generar = "Nuevo";
+            operacion = "Nuevo";
 
         }
         private void HabilitarControles()
@@ -66,12 +74,30 @@ namespace Examen_2Parcial
 
         private void Generarbutton_Click(object sender, EventArgs e)
         {
-            if (Generar == "Nuevo")
+
+            if (operacion == "Nuevo")
             {
                 if (string.IsNullOrEmpty(CodigoUsuariotextBox.Text))
                 {
                     errorProvider1.SetError(CodigoUsuariotextBox, "Su Codigo es obligatorio");
                     CodigoUsuariotextBox.Focus();
+                    return;
+                }
+                errorProvider1.Clear();
+
+                if (string.IsNullOrEmpty(CodigoUsuariotextBox.Text))
+                {
+                    errorProvider1.SetError(ContraseñatextBox, "Su Codigo es obligatorio");
+                    CodigoUsuariotextBox.Focus();
+                    return;
+                }
+                errorProvider1.Clear();
+
+
+                if (string.IsNullOrEmpty(NombretextBox.Text))
+                {
+                    errorProvider1.SetError(NombretextBox, "Ingrese el Nombre");
+                    NombretextBox.Focus();
                     return;
                 }
                 errorProvider1.Clear();
@@ -107,11 +133,49 @@ namespace Examen_2Parcial
                     return;
                 }
                 errorProvider1.Clear();
+
+                //BBDD
+
+                user.CodigoUsuario = CodigoUsuariotextBox.Text;
+                user.Contraseña = ContraseñatextBox.Text;
+                user.Nombre = NombretextBox.Text;
+                user.Correo = CorreotextBox.Text;
+                user.Rol = RolcomboBox.Text;
+                user.LugarMantenimiento = LugarMantextBox.Text;
+
+                //insertar en la BBDD
+                bool inserto = UsuarioDB.Insertar(user);
+
+                if (inserto)
+                {
+                    LimpiarControles();
+                    DeshabilitarControles();
+                    TraerUsuarios();
+                    MessageBox.Show("Registro Guardado");
+                }
+                else
+                {
+                    MessageBox.Show("No se pudo guardar el registro");
+                }
+
             }
             else
             {
-
+             
             }
+        }
+    
+
+        private void UsuariosForm_Load(object sender, EventArgs e)
+        {
+            TraerUsuarios();
+        }
+
+        private void TraerUsuarios()
+        {
+            dt = UsuarioDB.DevolverUsuarios();
+
+            UsuariosdataGridView.DataSource = dt;
 
         }
     }
