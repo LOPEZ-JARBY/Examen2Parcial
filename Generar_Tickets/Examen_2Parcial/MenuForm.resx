@@ -137,6 +137,166 @@
   <data name="&gt;&gt;MenuribbonControlAdv.OfficeMenu.Type" xml:space="preserve">
     <value>Syncfusion.Windows.Forms.Tools.MenuDropDown, Syncfusion.Tools.Windows, Version=20.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
   </data>
+  <metadata name="toolStripTabItem1.TabGroup" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </metadata>
+  <data name="toolStripTabItem1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 7.8pt, style=Bold</value>
+  </data>
+  <metadata name="toolStripEx2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>155, 17</value>
+  </metadata>
+  <data name="toolStripEx2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="toolStripEx2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="toolStripButton1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 7.8pt, style=Bold</value>
+  </data>
+  <data name="toolStripButton1.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="toolStripButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolStripButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 59</value>
+  </data>
+  <data name="toolStripButton1.Text" xml:space="preserve">
+    <value>USUARIOS</value>
+  </data>
+  <data name="toolStripButton1.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="toolStripEx2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1</value>
+  </data>
+  <data name="toolStripEx2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 0, 0</value>
+  </data>
+  <data name="toolStripEx2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="toolStripEx2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 81</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="toolStripEx2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;toolStripEx2.Name" xml:space="preserve">
+    <value>toolStripEx2</value>
+  </data>
+  <data name="&gt;&gt;toolStripEx2.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.ToolStripEx, Syncfusion.Tools.Windows, Version=20.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;toolStripEx2.Parent" xml:space="preserve">
+    <value>MenuribbonControlAdv.ribbonPanel1</value>
+  </data>
+  <data name="&gt;&gt;toolStripEx2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="toolStripEx4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>431, 17</value>
+  </metadata>
+  <data name="toolStripEx4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="toolStripEx4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="ClientestoolStripButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 7.8pt, style=Bold</value>
+  </data>
+  <data name="ClientestoolStripButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="ClientestoolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="ClientestoolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 59</value>
+  </data>
+  <data name="ClientestoolStripButton.Text" xml:space="preserve">
+    <value>CLIENTES</value>
+  </data>
+  <data name="ClientestoolStripButton.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="toolStripEx4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 1</value>
+  </data>
+  <data name="toolStripEx4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 0, 0</value>
+  </data>
+  <data name="toolStripEx4.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="toolStripEx4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 81</value>
+  </data>
+  <data name="toolStripEx4.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;toolStripEx4.Name" xml:space="preserve">
+    <value>toolStripEx4</value>
+  </data>
+  <data name="&gt;&gt;toolStripEx4.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.ToolStripEx, Syncfusion.Tools.Windows, Version=20.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;toolStripEx4.Parent" xml:space="preserve">
+    <value>MenuribbonControlAdv.ribbonPanel1</value>
+  </data>
+  <data name="&gt;&gt;toolStripEx4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="MenuribbonControlAdv.ribbonPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="MenuribbonControlAdv.ribbonPanel1.Text" xml:space="preserve">
+    <value>ATENCION AL CLIENTE</value>
+  </data>
+  <data name="&gt;&gt;MenuribbonControlAdv.ribbonPanel1.Name" xml:space="preserve">
+    <value>MenuribbonControlAdv.ribbonPanel1</value>
+  </data>
+  <data name="&gt;&gt;MenuribbonControlAdv.ribbonPanel1.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.RibbonPanel, Syncfusion.Tools.Windows, Version=20.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;MenuribbonControlAdv.ribbonPanel1.Parent" xml:space="preserve">
+    <value>MenuribbonControlAdv</value>
+  </data>
+  <data name="&gt;&gt;MenuribbonControlAdv.ribbonPanel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="toolStripTabItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 41</value>
+  </data>
+  <data name="toolStripTabItem1.Text" xml:space="preserve">
+    <value>ATENCION AL CLIENTE</value>
+  </data>
+  <data name="MenuribbonControlAdv.Size" type="System.Drawing.Size, System.Drawing">
+    <value>786, 166</value>
+  </data>
+  <data name="MenuribbonControlAdv.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="MenuribbonControlAdv.Text" xml:space="preserve">
+    <value>ribbonControlAdv1</value>
+  </data>
+  <data name="&gt;&gt;MenuribbonControlAdv.Name" xml:space="preserve">
+    <value>MenuribbonControlAdv</value>
+  </data>
+  <data name="&gt;&gt;MenuribbonControlAdv.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.RibbonControlAdv, Syncfusion.Tools.Windows, Version=20.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;MenuribbonControlAdv.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MenuribbonControlAdv.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="toolStripTabItem2.TabGroup" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value />
   </metadata>
@@ -158,22 +318,22 @@
   <data name="toolStripButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAANoSURBVFhH3ZZtSFNRGMfn3e7di1dtU5dzOBcm4mKmpG41
-        c6SWJZZpae9FHyoNfEl8gcAwJAqKwEqMIiq/KH0slKI+pFEUWhEi+SXwQ9+CZqL0srXTeY73rr3cXdu8
-        EfSHH+ec5/yf+/y5mzKZBNJiDmE6g4Aa3P09UZSsjqFj5tfnxs7XV+u9jbUGBDTUpHihpmKoeblcVsvZ
-        JZdDo6IWhi9nodlnZejr293o+7s9AYwOlKAEVvEDe+2LLRIqQUM972k0eedebA0Z7E9fVz4y6pUTXJt0
-        ohUx3yaH8gWH+jPzZAdSK+XwFiQXco2VCg4NBryLLdIKjd6yoQ25iYihKX6ID6g58hLRy6EtfE1yoeQV
-        DLp72oJcw8Vo4ZEzAKjBXbKWWTJAI4Y3iUJR1Be8yuRy+Xb/+p+AeyrxKqjudQ4nOt55RpTDzZ38w2RK
-        mp692d5Kzu6ZKVHA09/ahHCPC3qF1O0o2YzKKnfyA0JQx7IkBHeGAK4bbS3kLDTUH/CQAAzzGXqFRAIA
-        5fXt6MGHTyFgT0AA/DqrlQwND0SuqXHBwQDcgQe8uKcKeoUUcQBeaUb99PDADcHhANyZjanvOXtYRR0A
-        vliW7CzP3PTrkOFQgzvsqeDsYRV1AJDJYOhfbTZ57l3vRR8nxgiwzzSne8xGwzXOJqplBeB0Ra/TIW1C
-        PNJhYA+1xaulRQKI/RVo2DixAPGYga6Wk77XD3uocXdLigToOHdRlKAA8OCDSq1+nGLUbjYt22u32XwB
-        YM+asr1ypdqjSjJNgpfrEVREAWJo1UNKQXtzCuzkbL80hhy9rxCrTUKPB28TYA81uAMPeKGHjtM9xedC
-        TIAiCpDq3PsT1qH7I+Rc1PeGsKahF8XpkgkWvOfr/t5VNa1IoYl3U+rYZnz2iQSw5OUThIYDfABrxyBZ
-        efhB4Qj2FvSMIKV2pQf/nqvDNaKoApTWHPA9VAwh79q2O0ihUs3iGo2J7CNY7hvgYU0Zblwj/6SiChD8
-        HQhHOG/KxlovrrVjoguw/8hRspqrmkTx9/oHMFWcgFo3JroAtuJNEQE9kgYQ8ogBPf9XgFNnzwv6wgE9
-        jqvjPtK2HVtegLr6lojge3n0jl2/A6RnZCJneYUohc5S8pAU5z6y5tiKIoLv5WHTrb4AVsyFf4PM+gt1
-        hcTnvEpOKAAAAABJRU5ErkJggg==
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAANoSURBVFhH3ZZtSFNRGMfn3e7di1dtU5dzOBcl4mKmpG41
+        c6SWJZapafROHyoNfEl8gcAyIgqKwEoMIyq/KH0slKI+pFEUWhEi+SXwQ9+CZqL0srXTeY73rr3cXdu8
+        EfSHH+ec5/yf+/y5mzKZBNJiDmI6g4Aa3P09UZSsjqFj5jfkxM7XV+m9jbUGBDRUp3ihpmKoeblcVsvZ
+        JZdDo6IWhq9kotlnpejr293o+7s9AYwOFKMEVvEDe+2LLRIqQUM9P9No8s692BYy2J/erjxk1CsnuDbp
+        RCtivk0O5QkO9WfmyU6kVsrhLUgu5BorERwaDHgXW6QVGr1lQxtzEhFDU/wQH1Bz5Cail0Nb+ZrkQskr
+        GHT3lAW5hovQwiNnAFCDu2Qts2SARgxvEoWiqC94lcnl8h3+9T8B91TgVVDd6x1OdKzztCiHmjv5h8mU
+        ND17s72VnN0zU6KAp6+1CeEeF/QKqdtRvAWVVuziB4SgjmVJCO4MAVz9bS3kLDTUH/CQAAzzGXqFRAIA
+        ZfXt6MGHTyFgT0AA/DqrlAwND0SuqXHBwQDcgQe8uKcSeoUUcQBeaUb99PBAv+BwAO7MxtT3nD2sog4A
+        XyxLVqZnbvp1yHCowR32lHP2sIo6AMhkMPStMZs89270oI8TYwTYZ5jTPWaj4TpnE9WyAnC6qtfpkDYh
+        HukwsIfa4tXSIgHE/go0bJxYgHjMQFfLCd/rhz3UuLslRQJ0nL8kSlAAePABpVY/TjFqN5uW5bXbbL4A
+        sGdNWV65Uu1RJZkmwcv1CCqiADG06iGloL3Z+XZytl8eQ46eV4jVJqHHg7cJsIca3IEHvNBDx+me4nMB
+        JkARBUh11vyEdej+CDkX9r4hrG3oQXG6ZIIF7/m6v3dVdStSaOLdlDq2GZ99IgEsuXkEoeEAH8DaMUhW
+        Hn5QOIK9+edGkFK70oN/z9XhGlFUAUqq9/seKoaQd13bHaRQqWZxjcZE9hEs9w3wsKZ0N66Rf1JRBQj+
+        DoQjnDdlU60X19ox0QXYd/gIWc2VTaL4e/0DmMqPQ60bE10AW9HmiIAeSQMIecSAnv8rwMmzFwR94YAe
+        x7VxH2nbjy4vQF19S0TwvTx6R83vAOmrM5CzrFyUAmcJeUiKcy9Zs22FEcH38rDpVl8AK+biv0Fm/QUK
+        B8TaDTY7lQAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="toolStripButton2.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
@@ -200,7 +360,6 @@
   <data name="toolStripEx1.Size" type="System.Drawing.Size, System.Drawing">
     <value>214, 81</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="toolStripEx1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
@@ -291,173 +450,14 @@
   <data name="toolStripTabItem2.Text" xml:space="preserve">
     <value>SERVICIOS</value>
   </data>
-  <data name="MenuribbonControlAdv.Size" type="System.Drawing.Size, System.Drawing">
-    <value>786, 166</value>
-  </data>
-  <data name="MenuribbonControlAdv.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="MenuribbonControlAdv.Text" xml:space="preserve">
-    <value>ribbonControlAdv1</value>
-  </data>
-  <data name="&gt;&gt;MenuribbonControlAdv.Name" xml:space="preserve">
-    <value>MenuribbonControlAdv</value>
-  </data>
-  <data name="&gt;&gt;MenuribbonControlAdv.Type" xml:space="preserve">
-    <value>Syncfusion.Windows.Forms.Tools.RibbonControlAdv, Syncfusion.Tools.Windows, Version=20.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
-  </data>
-  <data name="&gt;&gt;MenuribbonControlAdv.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;MenuribbonControlAdv.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <metadata name="toolStripTabItem1.TabGroup" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value />
-  </metadata>
-  <data name="toolStripTabItem1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 7.8pt, style=Bold</value>
-  </data>
-  <metadata name="toolStripEx2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>155, 17</value>
-  </metadata>
-  <data name="toolStripEx2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="toolStripEx2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 8.25pt</value>
-  </data>
-  <data name="toolStripButton1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt, style=Bold</value>
-  </data>
-  <data name="toolStripButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="toolStripButton1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 59</value>
-  </data>
-  <data name="toolStripButton1.Text" xml:space="preserve">
-    <value>USUARIOS</value>
-  </data>
-  <data name="toolStripButton1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomCenter</value>
-  </data>
-  <data name="toolStripButton1.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>Overlay</value>
-  </data>
-  <data name="toolStripEx2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 1</value>
-  </data>
-  <data name="toolStripEx2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 0, 0, 0</value>
-  </data>
-  <data name="toolStripEx2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="toolStripEx2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>95, 81</value>
-  </data>
-  <data name="toolStripEx2.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;toolStripEx2.Name" xml:space="preserve">
-    <value>toolStripEx2</value>
-  </data>
-  <data name="&gt;&gt;toolStripEx2.Type" xml:space="preserve">
-    <value>Syncfusion.Windows.Forms.Tools.ToolStripEx, Syncfusion.Tools.Windows, Version=20.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
-  </data>
-  <data name="&gt;&gt;toolStripEx2.Parent" xml:space="preserve">
-    <value>MenuribbonControlAdv.ribbonPanel1</value>
-  </data>
-  <data name="&gt;&gt;toolStripEx2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="MenuribbonControlAdv.ribbonPanel1.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="MenuribbonControlAdv.ribbonPanel1.Text" xml:space="preserve">
-    <value>ATENCION AL CLIENTE</value>
-  </data>
-  <data name="&gt;&gt;MenuribbonControlAdv.ribbonPanel1.Name" xml:space="preserve">
-    <value>MenuribbonControlAdv.ribbonPanel1</value>
-  </data>
-  <data name="&gt;&gt;MenuribbonControlAdv.ribbonPanel1.Type" xml:space="preserve">
-    <value>Syncfusion.Windows.Forms.Tools.RibbonPanel, Syncfusion.Tools.Windows, Version=20.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
-  </data>
-  <data name="&gt;&gt;MenuribbonControlAdv.ribbonPanel1.Parent" xml:space="preserve">
-    <value>MenuribbonControlAdv</value>
-  </data>
-  <data name="&gt;&gt;MenuribbonControlAdv.ribbonPanel1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="toolStripTabItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>168, 41</value>
-  </data>
-  <data name="toolStripTabItem1.Text" xml:space="preserve">
-    <value>ATENCION AL CLIENTE</value>
-  </data>
   <metadata name="toolStripTabItem3.TabGroup" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value />
   </metadata>
   <data name="toolStripTabItem3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 7.8pt, style=Bold</value>
   </data>
-  <metadata name="toolStripEx4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>431, 17</value>
-  </metadata>
-  <data name="toolStripEx4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="toolStripEx4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 8.25pt</value>
-  </data>
-  <data name="toolStripButton4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 7.8pt, style=Bold</value>
-  </data>
-  <data name="toolStripButton4.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="toolStripButton4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>90, 59</value>
-  </data>
-  <data name="toolStripButton4.Text" xml:space="preserve">
-    <value>PRODUCTOS</value>
-  </data>
-  <data name="toolStripButton4.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>ImageAboveText</value>
-  </data>
-  <data name="toolStripEx4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 1</value>
-  </data>
-  <data name="toolStripEx4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 0, 0, 0</value>
-  </data>
-  <data name="toolStripEx4.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="toolStripEx4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 81</value>
-  </data>
-  <data name="toolStripEx4.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;toolStripEx4.Name" xml:space="preserve">
-    <value>toolStripEx4</value>
-  </data>
-  <data name="&gt;&gt;toolStripEx4.Type" xml:space="preserve">
-    <value>Syncfusion.Windows.Forms.Tools.ToolStripEx, Syncfusion.Tools.Windows, Version=20.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
-  </data>
-  <data name="&gt;&gt;toolStripEx4.Parent" xml:space="preserve">
-    <value>MenuribbonControlAdv.ribbonPanel3</value>
-  </data>
-  <data name="&gt;&gt;toolStripEx4.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="MenuribbonControlAdv.ribbonPanel3.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
-  </data>
-  <data name="MenuribbonControlAdv.ribbonPanel3.Text" xml:space="preserve">
-    <value>INVENTARIO</value>
   </data>
   <data name="&gt;&gt;MenuribbonControlAdv.ribbonPanel3.Name" xml:space="preserve">
     <value>MenuribbonControlAdv.ribbonPanel3</value>
@@ -472,10 +472,7 @@
     <value>4</value>
   </data>
   <data name="toolStripTabItem3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>106, 41</value>
-  </data>
-  <data name="toolStripTabItem3.Text" xml:space="preserve">
-    <value>INVENTARIO</value>
+    <value>32, 41</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -504,6 +501,12 @@
   <data name="&gt;&gt;toolStripButton1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;ClientestoolStripButton.Name" xml:space="preserve">
+    <value>ClientestoolStripButton</value>
+  </data>
+  <data name="&gt;&gt;ClientestoolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;toolStripTabItem2.Name" xml:space="preserve">
     <value>toolStripTabItem2</value>
   </data>
@@ -527,12 +530,6 @@
   </data>
   <data name="&gt;&gt;toolStripTabItem3.Type" xml:space="preserve">
     <value>Syncfusion.Windows.Forms.Tools.ToolStripTabItem, Syncfusion.Tools.Windows, Version=20.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
-  </data>
-  <data name="&gt;&gt;toolStripButton4.Name" xml:space="preserve">
-    <value>toolStripButton4</value>
-  </data>
-  <data name="&gt;&gt;toolStripButton4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MenuForm</value>

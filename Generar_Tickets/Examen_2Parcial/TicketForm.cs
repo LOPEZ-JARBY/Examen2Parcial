@@ -1,4 +1,6 @@
-﻿using System;
+﻿using DATOS;
+using ENTIDADES;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -18,6 +20,8 @@ namespace Examen_2Parcial
             InitializeComponent();
         }
         String agregar;
+        TicketDB TicketDB = new TicketDB();
+        Ticket Ticket;
 
         double PrecioTotal =0;
         double Precio = 0;
@@ -122,7 +126,6 @@ namespace Examen_2Parcial
 
                     // ImpuestotextBox = PreciotextBox * 0.15;
 
-                  
                    
                 }
                 errorProvider1.Clear();
@@ -177,7 +180,21 @@ namespace Examen_2Parcial
             }
             else
             {
-                MessageBox.Show("Tu ticket se añadio con exito");
+               // MessageBox.Show("Tu ticket se añadio con exito");
+               
+                Ticket = new Ticket();
+
+                Ticket.Usuario = UsuariotextBox.Text;
+                Ticket.Cliente = ClientetextBox.Text;
+                Ticket.Precio = Convert.ToDecimal(PreciotextBox.Text);
+                Ticket.Descuento = Convert.ToDecimal(DescuentocomboBox.Text);
+                Ticket.Impuesto = Convert.ToDecimal(ImpuestotextBox.Text);
+                Ticket.SubTotal = Convert.ToDecimal(SubTotaltextBox.Text);
+                Ticket.Total = Convert.ToDecimal(TotaltextBox.Text);
+                Ticket.TipoSoporte = TipoSoportecomboBox.Text;
+                Ticket.DescripcionSolicitud = DescripcionSolitextBox.Text;
+                Ticket.DescripcionRespuesta = DescripcionResptextBox.Text;
+
 
             }
 
@@ -199,6 +216,16 @@ namespace Examen_2Parcial
             {
                 e.Handled = true;
             }
+        }
+
+        private void TraerTicket()
+        {
+            //TicketdataGridView.DataSource = TicketDB.DevolverProductos();
+        }
+
+        private void TicketForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

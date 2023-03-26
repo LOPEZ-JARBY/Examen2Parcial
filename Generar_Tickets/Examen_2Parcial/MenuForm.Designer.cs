@@ -33,23 +33,22 @@
             this.toolStripTabItem1 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             this.toolStripEx2 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripEx4 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
+            this.ClientestoolStripButton = new System.Windows.Forms.ToolStripButton();
             this.toolStripTabItem2 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             this.toolStripEx1 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
             this.toolStripEx3 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
             this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.toolStripTabItem3 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
-            this.toolStripEx4 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
-            this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
             ((System.ComponentModel.ISupportInitialize)(this.MenuribbonControlAdv)).BeginInit();
             this.MenuribbonControlAdv.SuspendLayout();
             this.toolStripTabItem1.Panel.SuspendLayout();
             this.toolStripEx2.SuspendLayout();
+            this.toolStripEx4.SuspendLayout();
             this.toolStripTabItem2.Panel.SuspendLayout();
             this.toolStripEx1.SuspendLayout();
             this.toolStripEx3.SuspendLayout();
-            this.toolStripTabItem3.Panel.SuspendLayout();
-            this.toolStripEx4.SuspendLayout();
             this.SuspendLayout();
             // 
             // MenuribbonControlAdv
@@ -77,7 +76,7 @@
             this.MenuribbonControlAdv.QuickPanelImageLayout = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.MenuribbonControlAdv.RibbonHeaderImage = Syncfusion.Windows.Forms.Tools.RibbonHeaderImage.None;
             this.MenuribbonControlAdv.RibbonStyle = Syncfusion.Windows.Forms.Tools.RibbonStyle.Office2016;
-            this.MenuribbonControlAdv.SelectedTab = this.toolStripTabItem2;
+            this.MenuribbonControlAdv.SelectedTab = this.toolStripTabItem1;
             this.MenuribbonControlAdv.ShowRibbonDisplayOptionButton = true;
             this.MenuribbonControlAdv.SystemText.QuickAccessDialogDropDownName = "Start menu";
             this.MenuribbonControlAdv.SystemText.RenameDisplayLabelText = "&Display Name:";
@@ -92,6 +91,7 @@
             // MenuribbonControlAdv.ribbonPanel1
             // 
             this.toolStripTabItem1.Panel.Controls.Add(this.toolStripEx2);
+            this.toolStripTabItem1.Panel.Controls.Add(this.toolStripEx4);
             this.toolStripTabItem1.Panel.Name = "ribbonPanel1";
             this.toolStripTabItem1.Panel.ScrollPosition = 0;
             resources.ApplyResources(this.toolStripTabItem1.Panel, "MenuribbonControlAdv.ribbonPanel1");
@@ -116,6 +116,26 @@
             this.toolStripButton1.Image = global::Examen_2Parcial.Properties.Resources.conversion;
             this.toolStripButton1.Name = "toolStripButton1";
             this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
+            // 
+            // toolStripEx4
+            // 
+            resources.ApplyResources(this.toolStripEx4, "toolStripEx4");
+            this.toolStripEx4.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.toolStripEx4.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
+            this.toolStripEx4.Image = null;
+            this.toolStripEx4.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.toolStripEx4.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ClientestoolStripButton});
+            this.toolStripEx4.Name = "toolStripEx4";
+            this.toolStripEx4.Office12Mode = false;
+            // 
+            // ClientestoolStripButton
+            // 
+            this.ClientestoolStripButton.BackColor = System.Drawing.Color.WhiteSmoke;
+            resources.ApplyResources(this.ClientestoolStripButton, "ClientestoolStripButton");
+            this.ClientestoolStripButton.Image = global::Examen_2Parcial.Properties.Resources.consumidor;
+            this.ClientestoolStripButton.Name = "ClientestoolStripButton";
+            this.ClientestoolStripButton.Click += new System.EventHandler(this.ClientestoolStripButton_Click);
             // 
             // toolStripTabItem2
             // 
@@ -176,30 +196,11 @@
             // 
             // MenuribbonControlAdv.ribbonPanel3
             // 
-            this.toolStripTabItem3.Panel.Controls.Add(this.toolStripEx4);
             this.toolStripTabItem3.Panel.Name = "ribbonPanel3";
             this.toolStripTabItem3.Panel.ScrollPosition = 0;
             resources.ApplyResources(this.toolStripTabItem3.Panel, "MenuribbonControlAdv.ribbonPanel3");
             this.toolStripTabItem3.Position = 2;
             this.toolStripTabItem3.Tag = "3";
-            // 
-            // toolStripEx4
-            // 
-            resources.ApplyResources(this.toolStripEx4, "toolStripEx4");
-            this.toolStripEx4.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.toolStripEx4.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
-            this.toolStripEx4.Image = null;
-            this.toolStripEx4.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.toolStripEx4.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripButton4});
-            this.toolStripEx4.Name = "toolStripEx4";
-            this.toolStripEx4.Office12Mode = false;
-            // 
-            // toolStripButton4
-            // 
-            resources.ApplyResources(this.toolStripButton4, "toolStripButton4");
-            this.toolStripButton4.Image = global::Examen_2Parcial.Properties.Resources.camion;
-            this.toolStripButton4.Name = "toolStripButton4";
             // 
             // MenuForm
             // 
@@ -216,16 +217,14 @@
             this.toolStripTabItem1.Panel.PerformLayout();
             this.toolStripEx2.ResumeLayout(false);
             this.toolStripEx2.PerformLayout();
+            this.toolStripEx4.ResumeLayout(false);
+            this.toolStripEx4.PerformLayout();
             this.toolStripTabItem2.Panel.ResumeLayout(false);
             this.toolStripTabItem2.Panel.PerformLayout();
             this.toolStripEx1.ResumeLayout(false);
             this.toolStripEx1.PerformLayout();
             this.toolStripEx3.ResumeLayout(false);
             this.toolStripEx3.PerformLayout();
-            this.toolStripTabItem3.Panel.ResumeLayout(false);
-            this.toolStripTabItem3.Panel.PerformLayout();
-            this.toolStripEx4.ResumeLayout(false);
-            this.toolStripEx4.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -243,6 +242,6 @@
         private System.Windows.Forms.ToolStripButton toolStripButton3;
         private System.Windows.Forms.ToolStripButton toolStripButton1;
         private Syncfusion.Windows.Forms.Tools.ToolStripEx toolStripEx4;
-        private System.Windows.Forms.ToolStripButton toolStripButton4;
+        private System.Windows.Forms.ToolStripButton ClientestoolStripButton;
     }
 }

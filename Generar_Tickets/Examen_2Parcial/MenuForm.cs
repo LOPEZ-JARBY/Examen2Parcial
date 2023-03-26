@@ -38,5 +38,13 @@ namespace Examen_2Parcial
             usuarios.MdiParent = this;
             usuarios.Show();
         }
+
+        private void ClientestoolStripButton_Click(object sender, EventArgs e)
+        {
+            ClienteForm clientes = new ClienteForm();
+            clientes.MdiParent = this;
+            clientes.Show();
+
+        }
     }
 }

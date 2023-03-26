@@ -60,5 +60,10 @@ namespace Examen_2Parcial
                 PasswordtextBox.PasswordChar = '*';
             }
         }
+
+        private void LoginForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

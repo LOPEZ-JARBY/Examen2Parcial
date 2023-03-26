@@ -58,9 +58,11 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.FechadateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.DescuentocomboBox = new System.Windows.Forms.ComboBox();
             this.SubTotaltextBox = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.DescuentocomboBox = new System.Windows.Forms.ComboBox();
+            this.IdentidadtextBox = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TicketdataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
@@ -345,6 +347,8 @@
             this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox2.BackColor = System.Drawing.Color.White;
+            this.groupBox2.Controls.Add(this.IdentidadtextBox);
+            this.groupBox2.Controls.Add(this.label14);
             this.groupBox2.Controls.Add(this.DescuentocomboBox);
             this.groupBox2.Controls.Add(this.SubTotaltextBox);
             this.groupBox2.Controls.Add(this.label13);
@@ -363,10 +367,21 @@
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Location = new System.Drawing.Point(8, 98);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(684, 183);
+            this.groupBox2.Size = new System.Drawing.Size(684, 181);
             this.groupBox2.TabIndex = 50;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Datos.";
+            // 
+            // DescuentocomboBox
+            // 
+            this.DescuentocomboBox.Enabled = false;
+            this.DescuentocomboBox.FormattingEnabled = true;
+            this.DescuentocomboBox.Items.AddRange(new object[] {
+            "Descuento Tercera Edad"});
+            this.DescuentocomboBox.Location = new System.Drawing.Point(446, 51);
+            this.DescuentocomboBox.Name = "DescuentocomboBox";
+            this.DescuentocomboBox.Size = new System.Drawing.Size(202, 24);
+            this.DescuentocomboBox.TabIndex = 52;
             // 
             // SubTotaltextBox
             // 
@@ -385,16 +400,22 @@
             this.label13.TabIndex = 50;
             this.label13.Text = "Sub Total :";
             // 
-            // DescuentocomboBox
+            // IdentidadtextBox
             // 
-            this.DescuentocomboBox.Enabled = false;
-            this.DescuentocomboBox.FormattingEnabled = true;
-            this.DescuentocomboBox.Items.AddRange(new object[] {
-            "Descuento Tercera Edad"});
-            this.DescuentocomboBox.Location = new System.Drawing.Point(446, 51);
-            this.DescuentocomboBox.Name = "DescuentocomboBox";
-            this.DescuentocomboBox.Size = new System.Drawing.Size(202, 24);
-            this.DescuentocomboBox.TabIndex = 52;
+            this.IdentidadtextBox.Enabled = false;
+            this.IdentidadtextBox.Location = new System.Drawing.Point(100, 155);
+            this.IdentidadtextBox.Name = "IdentidadtextBox";
+            this.IdentidadtextBox.Size = new System.Drawing.Size(202, 22);
+            this.IdentidadtextBox.TabIndex = 54;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(25, 158);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(69, 16);
+            this.label14.TabIndex = 53;
+            this.label14.Text = "Identidad :";
             // 
             // TicketForm
             // 
@@ -413,8 +434,9 @@
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "TicketForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TicketForm";
+            this.Load += new System.EventHandler(this.TicketForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TicketdataGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
@@ -461,5 +483,7 @@
         private System.Windows.Forms.TextBox SubTotaltextBox;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.ComboBox DescuentocomboBox;
+        private System.Windows.Forms.TextBox IdentidadtextBox;
+        private System.Windows.Forms.Label label14;
     }
 }
